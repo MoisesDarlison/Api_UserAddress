@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
-    "pretest": "SET NODE_ENV=test&&npm run typeorm migration:run",
-    "test": "SET NODE_ENV=test&&jest -i"
+    "pretest": " NODE_ENV=test npm run typeorm migration:run",
+    "test": "NODE_ENV=test jest -i",
+    "pretest_win": "SET NODE_ENV=test&&npm run typeorm migration:run",
+    "test_win": "SET NODE_ENV=test&&jest -i"
   },
   "keywords": [],
   "author": "",
