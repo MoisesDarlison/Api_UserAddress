@@ -10,7 +10,7 @@ Antes de executar a API, você precisa configurar o arquivo .env. Use o exemplo 
 
 Você pode copiá-lo executando o seguinte comando no diretório raiz deste projeto:
 
-`$ cp .env.example .env`
+`cp .env.example .env`
 
 Depois de concluir, você precisará definir os novos valores em seu arquivo `.env`.
 
@@ -32,7 +32,7 @@ Você pode fazer isso executando:
 
 Depois de concluir todas as etapas anteriores, você estará pronto para começar a usar a API. Inicie o aplicativo executando o seguinte comando:
 
-`$ npm run dev`
+`npm run dev`
 
 A API usa a porta 3000 como padrão, fique à vontade para alterá-la.
 
