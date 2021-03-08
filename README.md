@@ -37,7 +37,7 @@ Depois de concluir todas as etapas anteriores, você estará pronto para começa
 A API usa a porta 3000 como padrão, fique à vontade para alterá-la.
 
 ### Executando testes
- - [x] <h2>Testes de integração </h2></br>
+<h2 align="center">Testes de integração </h2> </br>
 Você pode executar os testes de integração executando o seguinte comando:
 
 Para Windows 
@@ -46,7 +46,7 @@ Para Windows
 Para Linux 
 ` npm run test`
 
-- [x] <h2>Testes de rotas</h2> </br>
+<h2 align="center">Testes de rotas</h2> </br>
 
 ### URL Base
  
